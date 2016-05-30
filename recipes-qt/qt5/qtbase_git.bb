@@ -134,8 +134,6 @@ QT_CONFIG_FLAGS += " \
     ${PACKAGECONFIG_CONFARGS} \
 "
 
-OE_QMAKE_PATH_HOST_BINS = "${OE_QMAKE_PATH_EXTERNAL_HOST_BINS}"
-
 generate_qt_config_file_effective_paths() {
     cat >> ${OE_QMAKE_QTCONF_PATH} <<EOF
 [EffectivePaths]
